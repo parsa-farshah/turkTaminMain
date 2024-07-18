@@ -1,0 +1,8 @@
+@import "./setting.css";
+@import "../css/fonts.css";
+
+/* desktop size */
+@import "./xxl.css" screen and (min-width: 428px);
+
+/* mobile size */
+@import "./mobile.css" screen and (min-width: 0px) and (max-width: 628px);

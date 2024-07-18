@@ -1,0 +1,709 @@
+.background-header {
+  display: none;
+}
+
+.mobile-header {
+  height: 76px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-color: #f1f1f1;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-header .right-side {
+  height: 100%;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-color: #f1f1f1;
+  border-style: solid;
+  border-radius: 150px 0px 0px 0px;
+}
+
+.mobile-header .right-side img {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+
+/* عکس پروفایل منو */
+.bg-profile-image-mobile img {
+  cursor: pointer;
+}
+
+.bg-profile-image-mobile img:hover {
+  transform: scale(1.1);
+}
+
+.mobile-header .left-side {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile-header .left-side .icon-humburger-menu {
+  display: flex;
+  width: 51px;
+  height: 51px;
+}
+
+.mobile-header .left-side .icon-humburger-menu:hover {
+  transform: scale(1.1);
+}
+
+.mobile-header .left-side .icon-humburger-menu .bg-humburger-menu {
+  background-color: #ffffff;
+  border-color: #f1f1f1;
+  border-style: solid;
+  border-width: 2px;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* منوی موبایل */
+
+.submenu-mobile.show {
+  display: flex;
+}
+
+.submenu-mobile {
+  width: 100%;
+  height: 1000px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 20;
+}
+
+.submenu-mobile .bg-submenu-mobile .logo-exit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submenu-mobile .bg-submenu-mobile .logo-exit img {
+  position: relative;
+  left: 40px;
+}
+
+.submenu-mobile .bg-submenu-mobile .logo-exit .bg-exit {
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  border-color: #ff8a4a;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.submenu-mobile .bg-submenu-mobile .logo-exit .bg-exit p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #818899;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: relative;
+  bottom: 5px;
+}
+
+.submenu-mobile .bg-submenu-mobile .logo-exit .bg-exit p:hover {
+  color: #ff8a4a;
+}
+
+.search-submenu-mobile {
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.serach-submenu {
+  background-color: #ffffff;
+  border-color: #f1f1f1;
+  border-width: 2px;
+  border-style: solid;
+  height: 100%;
+}
+
+.serach-submenu form .search-icon-bg-mobile {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 150px 0px 0px 0px;
+  border-width: 2px;
+  border-color: #f1f1f1;
+  border-style: solid;
+  position: relative;
+  bottom: 2px;
+}
+
+.serach-submenu form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serach-submenu form .search-icon-bg-mobile img {
+  width: 20px;
+  height: 50px;
+}
+
+.serach-submenu form input {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-size: 14px;
+  background-color: #ffffff;
+  outline: none;
+  width: 82%;
+  height: 52px;
+}
+
+.serach-submenu form input:focus {
+  outline: solid;
+  outline-color: #d6d6d6;
+  position: absolute;
+  outline-width: 1px;
+}
+
+.serach-submenu form button {
+  border: none;
+  background-color: #00a9b8;
+  color: #ffffff;
+  width: 80px;
+  height: 48px;
+  position: relative;
+  left: 20px;
+  bottom: 1px;
+}
+
+.first-sub-menu {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.first-sub-menu a {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+
+.first-sub-menu .icon-first {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.first-sub-menu img {
+  width: 20px;
+  height: 20px;
+}
+
+.submenu-mobile .bg-submenu-mobile .safhe-asli-sub {
+  display: none;
+}
+
+.submenu-mobile .bg-submenu-mobile .safhe-asli-sub.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-sub-menu .icon-first .safhe-asli-arrow-before.hide {
+  display: none;
+}
+
+.safhe-asli-hover-icon {
+  display: none;
+}
+
+.safhe-asli-hover-icon.show {
+  display: flex;
+}
+
+.safhe-asli-first {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.safhe-asli-first-after-1 {
+  position: relative;
+  left: 0px;
+  bottom: 15px;
+  text-decoration: none;
+  display: none;
+}
+
+.safhe-asli-first-after-1.show {
+  display: flex;
+}
+
+.safhe-asli-first .safhe-asli-daste-bandi-1 {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.safhe-asli-first .safhe-asli-daste-bandi-1.show {
+  color: #f87833;
+}
+
+.safhe-asli-second {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.safhe-asli-first-after-2 {
+  position: relative;
+  left: 0px;
+  bottom: 15px;
+  text-decoration: none;
+  display: none;
+}
+
+.safhe-asli-first-after-2.show {
+  display: flex;
+}
+
+.safhe-asli-second .safhe-asli-daste-bandi-2 {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.safhe-asli-second .safhe-asli-daste-bandi-2.show {
+  color: #f87833;
+}
+
+/* خدمات در ترکیه */
+.second-sub-menu {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-sub-menu a {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+
+.second-sub-menu .icon-first {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.second-sub-menu img {
+  width: 20px;
+  height: 20px;
+}
+
+.second-sub-menu .icon-first .khadamat-turkie-arrow-before.hide {
+  display: none;
+}
+
+.khadamat-turkie-hover-icon {
+  display: none;
+}
+
+.khadamat-turkie-hover-icon.show {
+  display: flex;
+}
+
+.khadamat-turkie-first {
+  padding-top: 0px;
+}
+
+.khadamat-turkie-first a {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.khadamat-turkie-first a:hover {
+  color: #f87833;
+}
+
+.khadamat-turkie-second a {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.khadamat-turkie-second a:hover {
+  color: #f87833;
+}
+
+.submenu-mobile .bg-submenu-mobile .khadamat-turkie-sub {
+  display: none;
+}
+
+.submenu-mobile .bg-submenu-mobile .khadamat-turkie-sub.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.khadamat-turkie-first {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.khadamat-turkie-first-after-1 {
+  position: relative;
+  left: 0px;
+  bottom: 15px;
+  text-decoration: none;
+  display: none;
+}
+
+.khadamat-turkie-first-after-1.show {
+  display: flex;
+}
+
+.khadamat-turkie-first .khadamat-turkie-daste-bandi-1 {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.khadamat-turkie-first .khadamat-turkie-daste-bandi-1.show {
+  color: #f87833;
+}
+
+.khadamat-turkie-second {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.khadamat-turkie-first-after-2 {
+  position: relative;
+  left: 0px;
+  bottom: 15px;
+  text-decoration: none;
+  display: none;
+}
+
+.khadamat-turkie-first-after-2.show {
+  display: flex;
+}
+
+.khadamat-turkie-first .khadamat-turkie-daste-bandi-2 {
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+  opacity: 70%;
+}
+
+.khadamat-turkie-first .khadamat-turkie-daste-bandi-2.show {
+  color: #f87833;
+}
+
+/* پشتیبانی موبایل */
+.bg-poshtibani {
+  background-color: #fafbfb;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f4f3;
+  width: 50px;
+  margin-top: 80px;
+}
+.whatsapp-text {
+  direction: ltr;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: yekanBakhFanum-thin;
+  margin-right: 5px;
+}
+
+.number-icon-whatsapp img {
+  width: 25px;
+  height: 25px;
+}
+
+.phone-text {
+  direction: ltr;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: yekanBakhFanum-thin;
+  margin-right: 5px;
+}
+
+.poshtibani-phone img {
+  width: 24px;
+  height: 24px;
+}
+
+.main-mobile {
+  width: 100%;
+  height: auto;
+}
+
+.main-mobile .first-bg .bg-mobile {
+  width: 100vw;
+  height: 251px;
+}
+
+.main-mobile .first-bg .saye-ax {
+  width: 100vw;
+  height: 251px;
+  position: absolute;
+  top: 75px;
+  opacity: 70%;
+}
+
+.main-mobile {
+  display: flex;
+}
+
+.khadamat-search-mobile {
+  display: flex;
+}
+
+.first-bg {
+  display: flex;
+}
+
+/* قسمت خدمات */
+.khadamat-search-mobile {
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+}
+
+.bg-first-khadamat-mobile2 {
+  width: 100% !important;
+  background-color: rgb(255, 255, 255);
+}
+
+.second-row-mobile {
+  display: flex;
+}
+
+.bg-second-khadamat-mobile {
+  height: 430px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* قسمت اجاره خودرو و ... و اقامتگاه  */
+.khadamat-search-mobile {
+  width: 100%;
+}
+.bg-first-khadamat-mobile {
+  background-color: #ffffff71;
+  width: 1179px;
+  height: 261px;
+  position: absolute;
+  top: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-second-khadamat-mobile {
+  background-color: #ffffff;
+  width: 98%;
+  height: 800px;
+}
+
+.first-row-mobile {
+  width: 100%;
+  height: 106px;
+  background-color: #538848;
+}
+
+/* اجاره خودرو */
+.rent-car-mobile {
+  width: 145px;
+  height: 100%;
+  background-color: #fafbfb;
+}
+
+.icon-rent-car-links-mobile {
+  text-decoration: none;
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+.icon-rent-car-links-mobile:hover {
+  color: #00a9b8;
+}
+
+.icon-rent-car-mobile img {
+  width: 65px;
+  height: 62px;
+}
+/* اقامتگاه */
+.eghamatgah-mobile {
+  width: 145px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.icon-text-eghamatgah-links-mobile {
+  text-decoration: none;
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+.icon-text-eghamatgah-links-mobile:hover {
+  color: #00a9b8;
+}
+
+.icon-text-eghamatgah-links-mobile img {
+  width: 65px;
+  height: 62px;
+}
+
+/* بلیط هواپیما */
+.airplan-ticket-mobile {
+  width: 145px;
+  height: 100%;
+  background-color: #fafbfb;
+}
+
+.icon-text-airplan-ticket-links-mobile {
+  text-decoration: none;
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+.icon-text-airplan-ticket-links-mobile:hover {
+  color: #00a9b8;
+}
+
+.icon-text-airplan-ticket-links-mobile img {
+  width: 65px;
+  height: 62px;
+}
+/* هتل */
+.hotel-mobile {
+  width: 145px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.icon-text-hotel-links-mobile {
+  text-decoration: none;
+  color: #44424b;
+  font-family: yekanbakhfanum-semibold;
+}
+.icon-text-hotel-links-mobile:hover {
+  color: #00a9b8;
+}
+
+.icon-text-hotel-links-mobile img {
+  width: 65px;
+  height: 62px;
+}
+
+/* محل دریافت خودرو */
+.second-row-mobile {
+  width: 1107px;
+  height: 81.5px;
+  position: relative;
+  top: 50px;
+  right: 10px;
+  z-index: 19;
+}
+
+.mahal-daryafte-khodro-mobile {
+  width: 386px;
+  height: 80.5px;
+}
+
+.mahal-daryafte-khodro-mobile label {
+  font-family: yekanbakhfanum-semibold;
+  font-size: 13px;
+}
+
+.mahal-daryafte-khodro-select-mobile {
+  background-color: #fafbfb;
+  width: 100%;
+  height: 52px;
+}
+.mahal-daryafte-khodro-select-mobile option {
+  font-size: 13px;
+  font-family: yekanbakhfanum-semibold;
+}
+
+/* تاریخ و ساعت دریافت */
+.date-hour-recive-mobile {
+  width: 190px;
+  height: 81.5px;
+}
+
+.date-hour-recive-mobile label {
+  font-family: yekanbakhfanum-semibold;
+  font-size: 13px;
+}
+
+.date-hour-recive-select-mobile {
+  background-color: #fafbfb;
+  width: 100%;
+  height: 52px;
+}
+.date-hour-recive-select-mobile option {
+  font-size: 13px;
+  font-family: yekanbakhfanum-semibold;
+}
+/* تاریخ و ساعت تحویل */
+.date-hour-delivery-mobile {
+  width: 190px;
+  height: 81.5px;
+}
+
+.date-hour-delivery-mobile label {
+  font-family: yekanbakhfanum-semibold;
+  font-size: 13px;
+}
+
+.date-hour-delivery-select-mobile {
+  background-color: #fafbfb;
+  width: 100%;
+  height: 52px;
+}
+.date-hour-delivery-select-mobile option {
+  font-size: 13px;
+  font-family: yekanbakhfanum-semibold;
+}
+
+/* اعمال و جست و جو */
+.filter-search-mobile {
+  position: relative;
+  top: 5px;
+  background: rgb(0, 184, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 184, 184, 1) 0%,
+    rgba(0, 184, 184, 1) 55%,
+    rgba(0, 108, 115, 1) 100%
+  );
+  width: 154px;
+  height: 52px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+main{
+  display: none;
+
+}
+
+
+footer{
+  display: none;
+}

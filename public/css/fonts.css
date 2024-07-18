@@ -1,0 +1,41 @@
+@font-face {
+  font-family: yekanBakhFanum;
+  src: url(../fonts/YekanBakhFaNum-ExtraBlack.woff);
+}
+
+@font-face {
+  font-family: yekanBakhFanum-ExtraBold;
+  src: url(../fonts/YekanBakhFaNum-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: yekanBakhFanum-bold;
+  src: url(../fonts/YekanBakhFaNum-Bold.woff);
+}
+
+@font-face {
+  font-family: yekanbakhfanum-semibold;
+  src: url(../fonts/YekanBakhFaNum-SemiBold.woff);
+}
+
+@font-face {
+  font-family: yekanBakhFanum-black;
+  src: url(../fonts/YekanBakhFaNum-Black.woff);
+}
+
+@font-face {
+  font-family: yekanBakhFanum-regular;
+  src: url(../fonts/YekanBakhFaNum-Regular.woff);
+}
+
+@font-face {
+  font-family: yekanBakhFanum-light;
+  src: url(../fonts/YekanBakhFaNum-Light.woff);
+}
+@font-face {
+  font-family: yekanBakhFanum-thin;
+  src: url(../fonts/YekanBakhFaNum-Thin.woff);
+}
+
+
+
